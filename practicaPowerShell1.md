@@ -1,4 +1,4 @@
-## 1.-
+## Task 1
 
 ```powershell
 
@@ -146,7 +146,7 @@ REMARKS
            go to https://go.microsoft.com/fwlink/?LinkID=2097153.
  ```
  
- ## 2.-
+ ## Task 2
  ```powershell
  > Get-Help Get-Help -examples
  
@@ -460,3 +460,17 @@ REMARKS
     Get-ChildItem *.log
 ```
 
+## Task 3
+
+```
+> New-Item -Path /home/alt/ -Name Maximo -ItemType Directory
+> New-Item -Path /home/alt/Maximo -Name Powershell -ItemType Directory
+> New-Item -Path /home/alt/Maximo/Powershell -Name Workshop1 -ItemType Directory
+> New-Item -Path /home/alt/Maximo/Powershell/Workshop1/ -Name TestFile.txt -ItemType File    
+ 
+    Directory: /home/alt/Maximo/Powershell/Workshop1
+
+UnixMode   User             Group                 LastWriteTime           Size Name
+--------   ----             -----                 -------------           ---- ----
+-rw-rw-r-- alt              alt                 3/29/2022 19:27              0 TestFile.txt
+```
