@@ -462,7 +462,7 @@ REMARKS
 
 ## Task 3
 
-```
+```powershell
 > New-Item -Path /home/alt/ -Name Maximo -ItemType Directory
 > New-Item -Path /home/alt/Maximo -Name Powershell -ItemType Directory
 > New-Item -Path /home/alt/Maximo/Powershell -Name Workshop1 -ItemType Directory
@@ -473,4 +473,12 @@ REMARKS
 UnixMode   User             Group                 LastWriteTime           Size Name
 --------   ----             -----                 -------------           ---- ----
 -rw-rw-r-- alt              alt                 3/29/2022 19:27              0 TestFile.txt
+```
+
+## Task 4
+
+```
+> Add-Content -Path /home/alt/Maximo/Powershell/Workshop1/TestFile.txt -Value True
+> Add-Content -Path /home/alt/Maximo/Powershell/Workshop1/TestFile.txt -Value "Hello"
+> Add-Content -Path /home/alt/Maximo/Powershell/Workshop1/TestFile.txt -Value 42  
 ```
