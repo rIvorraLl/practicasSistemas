@@ -560,3 +560,30 @@ Length               Property              int Length {get;}
 > Set-Content -Path /home/alt/Maximo/Powershell/Workshop1/TestFile.txt -Value "Boooooo"
 ```
 
+## Task 7
+
+```powershell
+> Get-Service | Format-list
+Get-Service: The term 'Get-Service' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+```
+
+## Task 8
+
+```powershell
+> Get-Command | Out-GridView
+Out-GridView: The term 'Out-GridView' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+```
+
+## Task 9
+
+```powershell
+Out-GridView: The term 'Out-GridView' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+```
+
+## Task 10
+
+[Microsoft Powershell Documentation](https://docs.microsoft.com/en-us/powershell/)
