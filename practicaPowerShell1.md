@@ -44,4 +44,28 @@ REMARKS
            go to https://go.microsoft.com/fwlink/?LinkID=2096483.
  ```
  
+ ```powershell
+ Get-Help New-TimeSpan
+
+NAME
+    New-TimeSpan
+    
+SYNTAX
+    New-TimeSpan [[-Start] <datetime>] [[-End] <datetime>] [<CommonParameters>]
+    
+    New-TimeSpan [-Days <int>] [-Hours <int>] [-Minutes <int>] [-Seconds <int>] [<CommonParameters>]
+    
+
+ALIASES
+    None
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial 
+    help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help New-TimeSpan -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=2096709.
+```
+ 
  
