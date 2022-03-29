@@ -78,10 +78,15 @@ PS /home/alt> $intVar1 * $intVar2
 40
 ```
 
-# Task 4
+## Task 4
 ```powershell
 PS /home/alt> $intVar3 = 10      
 PS /home/alt> $intVar4 = 2 
 PS /home/alt> $VariableResult = $intVar3 / $intVar4
 ```
 
+## Task 5
+
+```powershell
+PS /home/alt> [String]$TypecastVar = 5
+```
