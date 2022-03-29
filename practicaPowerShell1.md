@@ -1,3 +1,5 @@
+## 1.-
+
 ```powershell
 
  Get-Help Get-Help
@@ -68,4 +70,79 @@ REMARKS
            go to https://go.microsoft.com/fwlink/?LinkID=2096709.
 ```
  
+ ```powershell
+ Get-Help pwd
+
+NAME
+    Get-Location
+    
+SYNTAX
+    Get-Location [-PSProvider <string[]>] [-PSDrive <string[]>] [<CommonParameters>]
+    
+    Get-Location [-Stack] [-StackName <string[]>] [<CommonParameters>]
+    
+
+ALIASES
+    gl
+    pwd
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial 
+    help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Location -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=2096495.
+ ```
+ 
+ ```powershell
+ Get-Help Read-Host
+
+NAME
+    Read-Host
+    
+SYNTAX
+    Read-Host [[-Prompt] <Object>] [-MaskInput] [<CommonParameters>]
+    
+    Read-Host [[-Prompt] <Object>] [-AsSecureString] [<CommonParameters>]
+    
+
+ALIASES
+    None
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial 
+    help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Read-Host -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=2096610.
+ ```
+ 
+ ```powershell
+ Get-Help Rename-Item
+
+NAME
+    Rename-Item
+    
+SYNTAX
+    Rename-Item [-Path] <string> [-NewName] <string> [-Force] [-PassThru] [-Credential <pscredential>] 
+    [-WhatIf] [-Confirm] [<CommonParameters>]
+    
+    Rename-Item [-NewName] <string> -LiteralPath <string> [-Force] [-PassThru] [-Credential 
+    <pscredential>] [-WhatIf] [-Confirm] [<CommonParameters>]
+    
+
+ALIASES
+    rni
+    ren
+    
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial 
+    help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Rename-Item -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=2097153.
+ ```
  
