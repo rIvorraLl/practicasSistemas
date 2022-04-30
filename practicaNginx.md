@@ -49,4 +49,4 @@ sudo vim ejemplo2
 
 ![20220430_13h57m39s_grim](https://user-images.githubusercontent.com/91564852/166104845-2c191d4f-3d6a-4143-9d0a-10f1ec5fe346.png)
 
-Con todo lo cual, ya tenemos ambas páginas web de ejemplo funcionando a trav
+Con todo lo cual, ya tenemos ambas páginas web de ejemplo funcionando a través de nuestro servidor nginx en localhost.
