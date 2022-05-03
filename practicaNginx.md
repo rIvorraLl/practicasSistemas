@@ -57,7 +57,8 @@ Con todo lo cual, ya tenemos ambas páginas web de ejemplo funcionando a través
 
 ![20220503_19h14m19s_grim](https://user-images.githubusercontent.com/91564852/166505223-ce53cf63-8cd1-4f1f-9e8a-db1e7521b2df.png)
 
-Nótese que para este procedimiento hemos debido de modificar el archivo `/etc/hosts
+Nótese que para este procedimiento hemos debido de modificar el archivo `/etc/hosts`.
+
 
 - Accedemos a las páginas de ejemplo escribiendo la ruta que hemos indicado:
 
