@@ -1,5 +1,7 @@
 ![20220430_13h06m49s_grim](https://user-images.githubusercontent.com/91564852/166104724-9c1445c6-9ec7-49b1-95d5-aefe827d00d7.png)
 
+Haremos esta práctica de dos maneras. Primero serviremos dos webs distintas vía Nginx usando puertos distintos en localhost, y después las serviremos empleando nombres de dominio.
+
 - Instalando nginx en Ubuntu 22.04.
 
 ```
@@ -50,3 +52,16 @@ sudo vim ejemplo2
 ![20220430_13h57m39s_grim](https://user-images.githubusercontent.com/91564852/166104845-2c191d4f-3d6a-4143-9d0a-10f1ec5fe346.png)
 
 Con todo lo cual, ya tenemos ambas páginas web de ejemplo funcionando a través de nuestro servidor nginx en localhost.
+
+- En la siguiente captura podemos ver la configuración necesaria para servir las páginas web a través de subdominios distintos que comparten puerto:
+
+![20220503_19h14m19s_grim](https://user-images.githubusercontent.com/91564852/166505223-ce53cf63-8cd1-4f1f-9e8a-db1e7521b2df.png)
+
+Nótese que para este procedimiento hemos debido de modificar el archivo `/etc/hosts
+
+- Accedemos a las páginas de ejemplo escribiendo la ruta que hemos indicado:
+
+![20220503_19h14m36s_grim](https://user-images.githubusercontent.com/91564852/166505380-131e0aca-af71-421d-9be3-0f310689c4ef.png)
+![20220503_19h15m24s_grim](https://user-images.githubusercontent.com/91564852/166505411-017187f6-6231-4214-91d1-b7461fa11e41.png)
+
+
